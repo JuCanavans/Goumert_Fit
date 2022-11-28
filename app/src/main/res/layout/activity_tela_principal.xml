@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde"
+    android:orientation="vertical"
+    tools:context=".Screens.TelaPrincipal">
+
+    <TextView
+        android:id="@+id/title_cadastre"
+        android:layout_width="390dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="GOURMETFIT"
+        android:textColor="@color/white"
+        android:textSize="43sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_CalcularIMC_Principal"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Inserir Calorias"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_CalcularIMC"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Calcular IMC"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_EditarPerfil"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Editar Perfil"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_GerarHistorico"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Gerar Histórico"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_Avaliacao"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Avaliação"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnAcessar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor5"
+    android:orientation="vertical"
+    tools:context=".Screens.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:text="Bem Vindo! "
+        android:textSize="45sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="245dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo1" />
+
+    <Button
+        android:id="@+id/btn_Logar"
+        android:layout_width="269dp"
+        android:background="@color/cor_principal"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/cor5"
+        android:textSize="19dp"
+        android:text="Acessar"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

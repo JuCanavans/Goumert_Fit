@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde"
+    android:orientation="vertical"
+    tools:context=".Screens.TelaCadastro">
+
+
+    <TextView
+        android:id="@+id/title_cadastre"
+        android:layout_width="242dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Cadastro"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome" />
+
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edt_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="CPF" />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Senha" />
+
+
+    <EditText
+        android:id="@+id/edt_senhaconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_Salvar"
+        android:layout_width="269dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Salvar"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_CalcularIMC_Principal"
+        android:layout_width="274dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Criar Perfil"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+

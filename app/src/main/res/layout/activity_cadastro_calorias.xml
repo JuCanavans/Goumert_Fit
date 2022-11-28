@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_salvarCalorias"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde"
+    android:orientation="vertical"
+    tools:context=".Screens.CadastroCalorias">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_cadastre"
+            android:layout_width="390dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Cadastro de Calorias"
+            android:textColor="@color/white"
+            android:textSize="43sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dia:"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="320dp">
+
+            <RadioButton
+                android:id="@+id/rd_dia01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1º Dia" />
+
+            <RadioButton
+                android:id="@+id/rd_dia02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2º Dia " />
+
+            <RadioButton
+                android:id="@+id/rd_dia03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3º Dia" />
+
+
+            <RadioButton
+                android:id="@+id/rd_dia04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4º Dia" />
+
+            <RadioButton
+                android:id="@+id/rd_dia05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5º Dia" />
+
+            <RadioButton
+                android:id="@+id/rd_dia06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6º Dia" />
+
+            <RadioButton
+                android:id="@+id/rd_dia07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="7º Dia" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Calorias Ingeridas Hoje: "
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_quantCalorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="Digite aqui"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="30dp" >
+
+            <Button
+                android:id="@+id/btn_salvarCal"
+                android:layout_width="126dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="Salvar"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_limparCal"
+                android:layout_width="126dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Limpar"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

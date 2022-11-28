@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gourmetfit20">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GourmetFit20">
+        <activity
+            android:name=".Screens.TabeladeCalorias"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TabelaCalorica"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.CadastroCalorias"
+            android:exported="false" />
+        <activity
+            android:name=".CalculoIMC"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TelaPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TelaPerfil"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TelaAvaliacao"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TelaRelatorio"
+            android:exported="false" />
+        <activity
+            android:name=".Cronograma"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TelaCadastro"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.TelaLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

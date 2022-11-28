@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde"
+    android:orientation="vertical"
+    tools:context=".Avaliacao">
+
+
+    <TextView
+        android:id="@+id/title_cadastre"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Avaliação"
+        android:textColor="@color/white"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Em uma escala de 0 a 10 avalie nosso APP."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+
+    <EditText
+        android:id="@+id/edt_nota"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:hint="0-10"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/edt_sugestao"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:hint="Sugestões e Melhorias"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_salvar_feedback"
+        android:layout_width="272dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Salvar FeedBack"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
